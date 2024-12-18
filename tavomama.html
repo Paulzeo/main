@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="images/icon.png">
+        <link rel="apple-touch-icon" type="image/png" href="images/icon.png">
+        <link rel="manifest" href="manifest.json">
+        <title>Paulreapz - Tavo mama</title>
+        <script>
+            const texts = [
+                "Tavo mama tokia stora, kad jos šiknos šešėlis sveria 15 kilogramų.",
+                "Tavo mama tokia stora, kad nuėjus į restoraną ji pasiima meniu ir sako: „Gerai“.",
+                "Tavo mama tokia stora, kad kai aplink ją apibėgau du kartus, pasiklydau.",
+                "Tavo mama tokia stora, kad ji aukštesnė atsigulus.",
+                "Tavo mama tokia stora, kad kai ji plūduriavo Atlanto vandenyne, Kolumbas ją laikė „Naująja Žeme“.",
+                "Tavo mama tokia stora, kad apie ją skraido NASA orbitinis satelitas.",
+                "Tavo mama tokia stora, kad Neilas Armstrongas ant jos nutupė 1969 metais.",
+                "Tavo mama tokia sena, kad jos socialinio draudimo numeris yra „1“.",
+                "Tavo mama tokia sena, kad trečioje klasėje ji sėdėjo už Jėzaus.",
+                "Tavo mama tokia sena, kad ji vis dar skolinga Jėzui 50 centų.",
+                "Tavo mama tokia stora, kad, kuomet ji atsisėdo ant „Memory“ čiužinio, jis viską pamiršo.",
+                "Tavo mama tokia stora, kad kai ji sėdėjo paplūdimyje, „Greenpeace“ ją įmetė atgal į vandenį.",
+                "Tavo mama tokia stora, kad, kuomet ji guli paplūdimyje, žmonės aplink ją bėga šaukdami: „Laisvė banginiams!“",
+                "Tavo mama tokia stora, kad ji sukelia potvynius ir atoslūgius.",
+                "Tavo mama tokia stora, kad ji turi savo pašto kodą.",
+                "Tavo mama tokia stora, kad ji gyvena dviejose laiko zonose.",
+                "Tavo mama tokia stora, kad žmonės aplink ją nubėga maratoną.",
+                "Tavo mama tokia stora, kad kartą bandydamas ją apvažiuoti, pritrūkau benzino.",
+                "Tavo mama tokia stora, kad kaskart jai apsisukus, žmonės švenčia sutiktuvių vakarėlį.",
+                "Tavo mama tokia stora, kad kaskart jai užsidėjus aukštakulnius, atrandama naftos.",
+                "Tavo mama tokia stora, kad jai užlipus ant svarstyklių, jos parodo: „Prašome lipti po vieną“.",
+                "Tavo mama tokia stora, kad vienintelė jos gaunama dešrelė yra dešrainis.",
+                "Tavo mama tokia stora, kad ji naudoja Eifelio bokštą kaip dantų krapštuką.",
+                "Tavo mama tokia stora, kad „McDonald's“ atidarė restoraną jos namuose.",
+                "Tavo mama tokia stora, kad jai nešiojant marškinėlius su „H“, ant jos leidžiasi sraigtasparniai.",
+                "Tavo mama tokia stora, kad jai iškritus iš lovos, ji iškrenta pro abi puses.",
+                "Tavo mama tokia stora, kad ji užstrigo garaže.",
+                "Tavo mama tokia stora, kad ji pabunda dalimis.",
+                "Tavo mama tokia stora, kad vienintelės jos nuotraukos yra darytos palydovu.",
+                "Tavo mama tokia stora, kad NASA planuoja ant jos išlaipinti žmogų."
+            ];
+            function randomText(){
+                const randomIndex = Math.floor(Math.random() * texts.length);
+                document.getElementById("random-text").innerText = texts[randomIndex]
+            }
+            window.onload = randomText;
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <h1 id="random-text">aa</h1>
+        </div>
+    </body>
+</html>

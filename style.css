@@ -18,6 +18,11 @@ body{
     color: darkorange;
     padding: 20px;
     border-radius: 10px;
+    max-width: 80%;
+    max-height: 80%;
+    width: auto;
+    height: auto;
+    overflow: auto;
 }
 
 .button{
