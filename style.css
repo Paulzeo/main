@@ -22,7 +22,7 @@ body{
     max-height: 80%;
     width: auto;
     height: auto;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .button{
